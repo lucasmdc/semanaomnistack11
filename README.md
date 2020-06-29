@@ -44,3 +44,26 @@ Abaixo segue a lista com as principais tecnologias dentre todas aquelas que fora
 * [Expo](https://expo.io/) - Ferramenta que auxilia na construção do App para dispositivos móveis
 
 > Quando digo "principais tecnologias" não estou dizendo que as demais presentes no projeto (em especial as que são __dependenciais de desenvolvimento__ como [Jest](https://jestjs.io/) e [Supertest](https://github.com/visionmedia/supertest)) são desnecessárias. Só não dei ênfase a elas pois eu não as integrei de forma completa ao projeto e ainda preciso estudar mais a fundo elas.
+
+## Pré-requisitos
+
+Para rodar esse projeto é necessário ter as tecnologias abaixo com suas respectivas versões:
+
+* [Node.js 12.13.0](https://nodejs.org/download/release/v12.13.0/)
+* NPM 6.12.0
+
+> Por padrão, quando se instala o node, ele vem com o npm também disponível para uso sem a necessidade de instalá-lo a parte. 
+
+Certifique-se de, quando for instalar o `Node.js 12.13.0`, ele venha com a versão `6.12.0` do `NPM`. Podemos coferir isso com o seguinte comando:
+
+```sh
+npm -v
+```
+
+## Instalação
+
+Com a versão correspondente daquelas tecnologias definidas em [__Pré-requisitos__](#pre-requisitos), entre dentro das pastas `/backend`, `/frontend` e `/mobile` e execute, em cada uma delas, o seguinte comando:
+
+```sh
+npm install
+```
