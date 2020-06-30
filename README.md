@@ -76,7 +76,7 @@ As APIs serão usadas para fazermos requisições ao servidor HTTP presente no _
 
 | Verbo  | API                              | Descrição                                                                                     |
 |--------|----------------------------------|-----------------------------------------------------------------------------------------------|
-| GET    | http://localhost:3333/incidents  | Busca por todas os __Casos__ cadastradas (_veja o exemplo_)                                   |
+| GET    | http://localhost:3333/incidents  | Busca por todas os __Casos__ cadastradas. ~~Veja o exemplo~~ (Em breve)                       |
 | GET    | http://localhost:3333/ongs       | Busca por todas as __ONGs__ cadastradas (_veja o exemplo_)                                    |
 | GET    | http://localhost:3333/profile    | Busca pelo __Perfil__ da __ONG__ cadastrada com seus respectivos __Casos__ (_veja o exemplo_) |
 | POST   | http://localhost:3333/incidents  | Cria um novo registro de __Caso__ (_veja o exemplo_)                                          |
