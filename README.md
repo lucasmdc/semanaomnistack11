@@ -10,7 +10,7 @@ Esse projeto foi construído durante a  __11ª Semana OmniStack__ realizada pela
 
 ## Observações
 
-* A termo __dispositivo móvel__, durante todo a leitura desse arquivo `readme.md`, refere-se apenas aos __smartphones__ e __tablets__;
+* O termo __dispositivo móvel__, durante todo a leitura desse arquivo `readme.md`, refere-se apenas aos __smartphones__ e __tablets__;
 
 * Na seção [__Organização do Projeto__](#organização-do-projeto), detalhei quais são as partes que compõem esse projeto pois, dessa forma, ficará claro compreender quais são seus respectivos __escopos__. 
 
@@ -52,7 +52,7 @@ Para rodar esse projeto é necessário ter as tecnologias abaixo com suas respec
 * [Node.js 12.13.0](https://nodejs.org/download/release/v12.13.0/)
 * NPM 6.12.0
 
-> Por padrão, quando se instala o node, ele vem com o npm também disponível para uso sem a necessidade de instalá-lo. 
+> Por padrão, quando se instala o Node.js, ele vem com o NPM também disponível para uso sem a necessidade de instalá-lo. 
 
 Certifique-se de, quando for instalar o `Node.js 12.13.0`, ele venha com a versão `6.12.0` do `NPM`. Podemos coferir isso com o seguinte comando:
 
@@ -70,14 +70,36 @@ $ npm install
 
 ### Backend
 
+#### API
+
+As APIs serão usadas para fazermos requisições ao servidor HTTP presente no __backend__. Abaixo segue uma tabela com cada uma delas:
+
+| Verbo  | API                              | Descrição                                                                                     |
+|--------|----------------------------------|-----------------------------------------------------------------------------------------------|
+| GET    | http://localhost:3333/incidents  | Busca por todas os __Casos__ cadastradas (_veja o exemplo_)                                   |
+| GET    | http://localhost:3333/ongs       | Busca por todas as __ONGs__ cadastradas (_veja o exemplo_)                                    |
+| GET    | http://localhost:3333/profile    | Busca pelo __Perfil__ da __ONG__ cadastrada com seus respectivos __Casos__ (_veja o exemplo_) |
+| POST   | http://localhost:3333/incidents  | Cria um novo registro de __Caso__ (_veja o exemplo_)                                          |
+| POST   | http://localhost:3333/ongs       | Cria um novo registro de __ONG__ (_veja o exemplo_)                                           |
+| POST   | http://localhost:3333/profile    | Cria um novo vínculo de __Caso__ associado a uma respectiva __ONG__ (_veja o exemplo_)        |
+| DELETE | http://localhost:3333/incidents/ | Deleta um __Caso__ cadastrado (_veja o exemplo_)                                              |
+
+#### Banco de Dados
+
 Temos que ter um BD do projeto rodando na máquina local, do contrário, não será possível fazer as operações de `Create` (Criação), `Read` (Consulta), `Update` (Atualização) e `Delete` (Destruição) ou, de forma abreviada, o `CRUD` que corresponde as opereções principais que fazemos ao usar o BD.
 
 Nesse projeto, quem se incumbe de cuidar da criação do BD e das suas operações CRUD é o `Knex.js`. 
 
-Dado a sua necessidade, dentro da pasta `/backend`, execute o comando a seguir
+Dado a sua necessidade, dentro da pasta `/backend`, execute o comando a seguir:
 
 ```sh
+# Instala na máquina, de forma 'global', o 'CLI' do 'knex'
+
 $ npm install knex -g
+
+# Executa o(s) arquivo(s) de criação do BD que estão dentro da pasta 'src/database/migrations'
 
 $ knex migrate:latest
 ```
+
+Após a criação do BD, podemos comaçar a usar as operações CRUD. 
