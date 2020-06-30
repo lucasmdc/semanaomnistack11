@@ -76,13 +76,13 @@ As APIs serão usadas para fazermos requisições ao servidor HTTP presente no _
 
 | Verbo  | API                              | Descrição                                                                                     |
 |--------|----------------------------------|-----------------------------------------------------------------------------------------------|
-| GET    | http://localhost:3333/incidents  | Busca por todas os __Casos__ cadastradas. ~~Veja o exemplo~~ (Em breve)                       |
-| GET    | http://localhost:3333/ongs       | Busca por todas as __ONGs__ cadastradas (_veja o exemplo_)                                    |
-| GET    | http://localhost:3333/profile    | Busca pelo __Perfil__ da __ONG__ cadastrada com seus respectivos __Casos__ (_veja o exemplo_) |
-| POST   | http://localhost:3333/incidents  | Cria um novo registro de __Caso__ (_veja o exemplo_)                                          |
-| POST   | http://localhost:3333/ongs       | Cria um novo registro de __ONG__ (_veja o exemplo_)                                           |
-| POST   | http://localhost:3333/profile    | Cria um novo vínculo de __Caso__ associado a uma respectiva __ONG__ (_veja o exemplo_)        |
-| DELETE | http://localhost:3333/incidents/ | Deleta um __Caso__ cadastrado (_veja o exemplo_)                                              |
+| GET    | http://localhost:3333/incidents  | Busca por todas os __Casos__ cadastradas. ~~Veja o exemplo~~ (**_Em breve_**)                 |
+| GET    | http://localhost:3333/ongs       | Busca por todas as __ONGs__ cadastradas.  ~~Veja o exemplo~~ (**_Em breve_**)                 |
+| GET    | http://localhost:3333/profile    | Busca pelo __Perfil__ da __ONG__ cadastrada com seus respectivos __Casos__. ~~Veja o exemplo~~ (**_Em breve_**) |
+| POST   | http://localhost:3333/incidents  | Cria um novo registro de __Caso__.  ~~Veja o exemplo~~ (**_Em breve_**)                       |
+| POST   | http://localhost:3333/ongs       | Cria um novo registro de __ONG__.  ~~Veja o exemplo~~ (**_Em breve_**)                        |
+| POST   | http://localhost:3333/profile    | Cria um novo vínculo de __Caso__. associado a uma respectiva __ONG__.  ~~Veja o exemplo~~ (**_Em breve_**)       |
+| DELETE | http://localhost:3333/incidents/ | Deleta um __Caso__ cadastrado.  ~~Veja o exemplo~~ (**_Em breve_**)                                            |
 
 #### Banco de Dados
 
