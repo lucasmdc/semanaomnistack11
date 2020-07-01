@@ -103,4 +103,12 @@ $ npm install knex -g
 $ knex migrate:latest
 ```
 
-Após a criação do BD, podemos comaçar a usar as operações CRUD. 
+Após a criação do BD, podemos comaçar a usar as operações CRUD ___mas___, antes disso, temos que colocar o `servidor HTTP` para trabalhar. Isso é necessário pois essa será a forma que o __Frontend__ e o __Mobile__ consiguirá fazer as requisições ao __Backend__ e ele, por sua vez, irá processar, preparar e responder a quem a solicitou.
+
+Dado as informações acima, execute:
+
+```sh
+# Inicia o "servidor HTTP" presente no "/backend"
+
+$ npm start
+```
