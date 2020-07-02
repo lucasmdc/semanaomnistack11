@@ -68,7 +68,7 @@ Com a versão correspondente daquelas tecnologias definidas em [__Pré-requisito
 $ npm install
 ```
 
-### `/backend`
+### /backend
 ----
 
 #### API
@@ -113,7 +113,7 @@ Dado as informações acima, execute:
 $ npm start
 ```
 
-### `/frontend`
+### /frontend
 ----
 
 ```sh
@@ -122,7 +122,7 @@ $ npm start
 $ npm start
 ```
 
-### `/mobile`
+### /mobile
 ----
 
 ```sh
