@@ -68,7 +68,7 @@ Com a versão correspondente daquelas tecnologias definidas em [__Pré-requisito
 $ npm install
 ```
 
-### Backend
+### `/backend`
 ----
 
 #### API
@@ -112,3 +112,27 @@ Dado as informações acima, execute:
 
 $ npm start
 ```
+
+### `/frontend`
+----
+
+```sh
+# Inicia o "/frontend"
+
+$ npm start
+```
+
+### `/mobile`
+----
+
+```sh
+# Instala na máquina, de forma 'global', o 'CLI' do 'knex'
+
+$ npm install -g expo-cli
+
+# Inicia o "/mobile"
+
+$ npm run start
+```
+
+
