@@ -126,7 +126,7 @@ $ npm start
 ----
 
 ```sh
-# Instala na máquina, de forma 'global', o 'CLI' do 'knex'
+# Instala na máquina, de forma 'global', o 'CLI' do 'expo'
 
 $ npm install -g expo-cli
 
