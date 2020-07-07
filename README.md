@@ -26,7 +26,7 @@ O projeto está dividido em três partes, são essas:
 
 __Frontend__ refere-se ao uso da interface a partir de navegadores WEB, _indiferentemente_ do tamanho e/ou resolução de tela, ou seja, esse acesso pode ocorrer também a partir de navegadores WEB presentes em dispositivos móveis.
 
-__Mobile__ refere-se ao uso da interface a partir de um App de dispositivo móvel__.
+__Mobile__ refere-se ao uso da interface a partir de um App de dispositivo móvel.
 
 Em resumo, entenda que o __Frontend__ e o __Mobile__ são escopos diferentes dentro do projeto, ou seja, eles não se relacionam. O que eles tem em comum _apenas_ é o __Backend__ que _serve_ __recursos__ para ambos.
 
