@@ -1,14 +1,14 @@
 # Be The Hero
 
-Projeto criado para ajudar as ONGs em sua divulgação, facilitando assim com que as pessoas as encontrem e contribuam com essas entidades através de doações.
-
 ## Introdução
 
 Saudações!!!
 
-Esse projeto foi construído durante a  __11ª Semana OmniStack__ realizada pela [Rocketseat](https://rocketseat.com.br/).
+Esse projeto foi criado para estudo, durante a  __11ª Semana OmniStack__, realizada pela [Rocketseat](https://rocketseat.com.br/), tendo como cenário fictício para o seu desenvolvimento, uma ferramenta que ajude nas divulgações das ONGs, facilitando assim com que as pessoas as encontrem e contribuam com essas entidades através de doações.
 
 ## Observações
+
+Abaixo segue uma lista com observções para te ajudar, durante a leitura, no compreendimento dos textos:
 
 * O termo __dispositivo móvel__, durante todo a leitura desse arquivo `readme.md`, refere-se apenas aos __smartphones__ e __tablets__;
 
@@ -20,15 +20,15 @@ O projeto está dividido em três partes, são essas:
 
 * __Backend__, em que encontra-se a __regra de negócio__ e as __funcionalidades__ desse projeto;
 
-* __Frontend__, em que encontra-se a __interface__ usada em __navegadores web__ e, por último o;
+* __Frontend__, em que encontra-se a __interface__ usada em __navegadores WEB__ e, por último o;
 
 * __Mobile__, em que encontra-se a __interface__ usada pelo __App__ em __dispositivos móveis__.
 
-__Frontend__ refere-se ao uso da __interface a partir de navegadores web__, ___indiferentemente_ do tamanho e/ou resolução de tela__, ou seja, esse acesso pode ocorrer também a partir de __navegadores web__ presentes em __dispositivos móveis__.
+__Frontend__ refere-se ao uso da interface a partir de navegadores WEB, _indiferentemente_ do tamanho e/ou resolução de tela, ou seja, esse acesso pode ocorrer também a partir de navegadores WEB presentes em dispositivos móveis.
 
-__Mobile__ refere-se ao uso da __interface a partir de um App de dispositivo móvel__.
+__Mobile__ refere-se ao uso da interface a partir de um App de dispositivo móvel__.
 
-Em resumo, entenda que o __Frontend__ e o __Mobile__ ___são coisas diferentes___. Na verdade, a ___única_ coisa em comum__ é que o __Backend _serve_ recursos__ tanto para o __Frontend__ quanto ao __Mobile__, porém cada um deles as utilizam de acordo com seu respectivo __escopo__.
+Em resumo, entenda que o __Frontend__ e o __Mobile__ são escopos diferentes dentro do projeto, ou seja, eles não se relacionam. O que eles tem em comum _apenas_ é o __Backend__ que _serve_ __recursos__ para ambos.
 
 ## Tecnologias
 
@@ -52,7 +52,7 @@ Para rodar esse projeto é necessário ter as tecnologias abaixo com suas respec
 * [Node.js 12.13.0](https://nodejs.org/download/release/v12.13.0/)
 * NPM 6.12.0
 
-> Por padrão, quando se instala o Node.js, ele vem com o NPM também disponível para uso sem a necessidade de instalá-lo. 
+> Por padrão, quando se instala o Node.js, ele vem com o NPM incluso na instalação. 
 
 Certifique-se de, quando for instalar o `Node.js 12.13.0`, ele venha com a versão `6.12.0` do `NPM`. Podemos coferir isso com o seguinte comando:
 
@@ -103,7 +103,7 @@ $ npm install knex -g
 $ knex migrate:latest
 ```
 
-Após a criação do BD, podemos comaçar a usar as operações CRUD ___mas___, antes disso, temos que colocar o `servidor HTTP` para trabalhar. Isso é necessário pois essa será a forma que o __Frontend__ e o __Mobile__ consiguirá fazer as requisições ao __Backend__ e ele, por sua vez, irá processar, preparar e responder a quem a solicitou.
+Após a criação do BD, podemos comaçar a usar as operações CRUD _mas_, antes disso, temos que colocar o `servidor HTTP` para trabalhar. Isso é necessário pois essa será a forma que o __Frontend__ e o __Mobile__ consiguirá fazer as requisições ao __Backend__ e ele, por sua vez, irá processar, preparar e responder a quem a solicitou.
 
 Dado as informações acima, execute:
 
